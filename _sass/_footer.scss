@@ -1,0 +1,37 @@
+/*******************************************************************************
+ * Footer styles
+ ******************************************************************************/
+
+footer.fixed-bottom {
+  background-color: var(--global-footer-bg-color);
+  font-size: 0.75rem;
+
+  .container {
+    color: var(--global-footer-text-color);
+    padding-top: 9px;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+// Local override: static, small, grey footer (was a large 40px sticky footer)
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  color: var(--global-text-color-light);
+
+  .container {
+    text-align: center;
+  }
+}
