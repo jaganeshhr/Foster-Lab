@@ -182,9 +182,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-archives-v2 (0.0.8)
-      activesupport
-      jekyll (>= 3.6, < 5.0)
     jekyll-cache-bust (0.0.1)
       jekyll (>= 3.6, < 5.0)
     jekyll-email-protect (1.1.0)
@@ -353,7 +350,6 @@ DEPENDENCIES
   css_parser
   jekyll
   jekyll-3rd-party-libraries
-  jekyll-archives-v2
   jekyll-cache-bust
   jekyll-email-protect
   jekyll-feed
@@ -440,7 +436,6 @@ CHECKSUMS
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   jekyll (4.4.1) sha256=4c1144d857a5b2b80d45b8cf5138289579a9f8136aadfa6dd684b31fe2bc18c1
   jekyll-3rd-party-libraries (0.0.1) sha256=331f8d53adbb532a27705d9d4fb719c7f306247c56531fa22c0178f4a445a692
-  jekyll-archives-v2 (0.0.8) sha256=5584088b4bd188a6099a2f6940c223f037ddb30e70890fcca1da299395584a7d
   jekyll-cache-bust (0.0.1) sha256=538ffe6d48f56d933b435bf32d4fef19ff1082cae7d6d8bc737fc13a9c86ba8c
   jekyll-email-protect (1.1.0) sha256=00d620939c710788ae3f71188ef913e0aa7ff0a5a39f48249213ea6215558c8d
   jekyll-feed (0.17.0) sha256=689aab16c877949bb9e7a5c436de6278318a51ecb974792232fd94d8b3acfcc3
